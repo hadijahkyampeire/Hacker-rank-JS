@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+.my-calculator {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border: 1px solid green;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.result-area {
+  background-color: lightgray;
+  height: 48px;
+  font-size: 20px;
+}
+
+.top-row, .bottom-row {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  float: left;
+  margin: 0;
+  border: 0.5px solid grey;
+}
+
+
+.light-green {
+  background-color: #2ec866;
+}
+
+.dark-green {
+  background-color: #006400;
+}
+
+.arithmetic {
+  color: red;
+  background: black;
+}
+
+.header {
+  margin: 1rem;
+}

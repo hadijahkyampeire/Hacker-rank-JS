@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  margin: 0.5rem;
+  width: 15%;
+  margin: auto;
+}
+
+.btn {
+  height: 48px;
+  font-size: 24px;
+  width: 95%;
+}
+
+.header {
+  margin: 1rem;
+}
