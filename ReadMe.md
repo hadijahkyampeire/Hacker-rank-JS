@@ -3,5 +3,3 @@
 #### Button Grid and Binary Calculator
 
 - Watch demo
-
-[]
